@@ -12,7 +12,7 @@ html {
   
   /* My edits below to create a 4 x 2 grid container */
   display: grid;
-  grid-template: 80px 80px 400px 80px / 250px 750px;
+  grid-template: 100px 100px 500px 100px / 300px 900px;
   gap: 15px;
 }
 
