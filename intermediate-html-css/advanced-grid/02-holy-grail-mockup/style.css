@@ -89,3 +89,45 @@
   font-size: 13px;
   font-weight: normal;
 }
+
+/* ********MY SOLUTION BELOW********* */
+
+.container {
+  display: grid;
+  grid-template-columns: 325px 975px;
+  grid-template-rows: 100px 50px 700px 50px;
+}
+
+.header {
+  grid-area: 1 / 1 / 2 / 3;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.sidebar {
+  grid-area: 2 / 1 / 4 / 2;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.footer {
+  grid-area: 4 / 1 / 5 / 3;
+}
